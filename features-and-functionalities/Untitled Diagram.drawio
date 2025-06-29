@@ -1,0 +1,37 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36" version="27.1.6">
+  <diagram name="Page-1" id="NymuGWyjzBy9jLSMw1gg">
+    <mxGraphModel dx="2181" dy="804" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="Hr1T2I1NY0VTFFEyJxaf-1" value="AUTHENTICATION &amp;amp; USER MANAGEMENT&lt;div&gt;register(JWT,Oalth)&lt;/div&gt;&lt;div&gt;login&lt;/div&gt;&lt;div&gt;profile update&lt;/div&gt;&lt;div&gt;role based accee guest/host/admin&lt;/div&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="-156" y="40" width="210" height="210" as="geometry" />
+        </mxCell>
+        <mxCell id="Hr1T2I1NY0VTFFEyJxaf-2" value="PROPERTY MANAGEMENT&lt;div&gt;add/edit/delete listings&lt;/div&gt;&lt;div&gt;add images&lt;/div&gt;&lt;div&gt;store in file&lt;/div&gt;&lt;div&gt;storage&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="204" y="40" width="210" height="210" as="geometry" />
+        </mxCell>
+        <mxCell id="Hr1T2I1NY0VTFFEyJxaf-3" value="BOOKING SYSTEM&lt;div&gt;create-booking&lt;/div&gt;&lt;div&gt;prevent double-bookings&#39;&lt;/div&gt;&lt;div&gt;cancel bookings&lt;/div&gt;&lt;div&gt;track status&lt;/div&gt;&lt;div&gt;pending,confirmed,cancelled&lt;/div&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="510" y="40" width="210" height="210" as="geometry" />
+        </mxCell>
+        <mxCell id="Hr1T2I1NY0VTFFEyJxaf-4" value="PAYMENTS&lt;div&gt;guests pay via stripe/paypal&lt;/div&gt;&lt;div&gt;host guest auto payour&lt;/div&gt;&lt;div&gt;multi currency support&lt;/div&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="-160" y="300" width="210" height="210" as="geometry" />
+        </mxCell>
+        <mxCell id="Hr1T2I1NY0VTFFEyJxaf-5" value="REVIEWS AND RATINGS&lt;div&gt;guest leaves reviews&lt;/div&gt;&lt;div&gt;host responds&lt;/div&gt;&lt;div&gt;linked to bookings&#39;&lt;/div&gt;&lt;div&gt;only&lt;/div&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="200" y="300" width="210" height="210" as="geometry" />
+        </mxCell>
+        <mxCell id="Hr1T2I1NY0VTFFEyJxaf-6" value="NOTIFICATIONS&lt;div&gt;email(sendgrid/maligun)&lt;/div&gt;&lt;div&gt;in app- updates&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="520" y="300" width="210" height="210" as="geometry" />
+        </mxCell>
+        <mxCell id="Hr1T2I1NY0VTFFEyJxaf-7" value="ADMIN DASHBOARD&lt;div&gt;manage users&lt;/div&gt;&lt;div&gt;approve listings&lt;/div&gt;&lt;div&gt;see payments and bookings&lt;/div&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="-160" y="560" width="210" height="210" as="geometry" />
+        </mxCell>
+        <mxCell id="Hr1T2I1NY0VTFFEyJxaf-8" value="TECHNICAL REQUIREMENTS&lt;div&gt;RESTful api&lt;/div&gt;&lt;div&gt;postgre sql/mysql&lt;/div&gt;&lt;div&gt;JWT auth+RBAC&lt;/div&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="180" y="560" width="210" height="210" as="geometry" />
+        </mxCell>
+        <mxCell id="Hr1T2I1NY0VTFFEyJxaf-9" value="technical requirements&lt;div&gt;Resful api&lt;/div&gt;&lt;div&gt;postgresql/mysql&lt;/div&gt;&lt;div&gt;JWT auth+RBAC&lt;/div&gt;&lt;div&gt;Error handling +logging&lt;/div&gt;&lt;div&gt;caching&amp;nbsp;&lt;/div&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="500" y="550" width="250" height="250" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
